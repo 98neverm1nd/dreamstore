@@ -1,0 +1,69 @@
+.NewPost{
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    form {
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+    }
+
+    input{  
+        font-size:20px;
+        text-align: center;
+    }
+
+    textarea {
+        font-size:16px;
+        resize: none;
+    }
+
+    textarea, input{
+        border: 1px blue solid;
+        margin: 5px;
+    }
+
+    .controls{
+        display:flex;
+        justify-content: center;
+    }
+
+    .submit{
+        background-color: #7acc6c;
+    }
+    .reset{
+        background-color: rgb(233, 142, 155);
+    }
+    .submit:hover, .reset:hover{
+        width:110px;
+        height:40px;
+        transition-duration: 0.2s;
+    }
+    button {
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        border: none;
+        transition-duration: 0.2s;
+        font-family: inherit;
+    }
+
+    @media(max-width: 800px){
+        
+    }
+}
+
+.show{
+    transition-duration: 0.2s;
+    color: lightcoral;
+    margin: 0 10px;
+}
+.show:hover{
+    cursor: pointer;
+    font-size: 20px;
+
+}

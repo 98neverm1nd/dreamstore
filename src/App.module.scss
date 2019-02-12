@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Cabin|Indie+Flower');
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background-image: radial-gradient(circle, #1dc8f8, #18c6f7, #13c4f6, #0dc2f5, #05c0f4);
+}
+.App{
+    font-family: 'Cabin', cursive;
+    margin: 0 20%;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 30px;
+
+}

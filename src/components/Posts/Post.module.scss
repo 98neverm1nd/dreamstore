@@ -1,0 +1,37 @@
+.Post{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 60px 0;
+    word-wrap: break-word;
+    div{
+        width: 80%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    button{
+        width: 40px;
+        border: none;
+        background-color:rgba(0,0,0,0);
+        margin-left: 10px;  
+    }
+    span{
+        transition-duration: 0.2s;
+    }
+    span:hover{
+        font-size:20px;
+        cursor: pointer;
+    }
+}
+
+.Posts{
+    width: 80%;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center; 
+}
