@@ -4,7 +4,7 @@ import classes from './Footer.module.scss';
 const footer = () => {
     return(
         <div className = {classes.Footer}>
-            Ilya Kvashenko
+            Ilya <br/> Kvashenko
         </div>
     );
 }

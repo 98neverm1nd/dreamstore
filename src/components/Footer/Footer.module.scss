@@ -1,11 +1,31 @@
-.Footer{
+%Footer{
     text-align: center;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 150px;
-    height: 30px;
+    width: 15%;
+    height: 50px;
     color: white;
     background-color: rgba(0,0,0,0.5);
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.Clocks{
+    @extend %Footer;
+    left:0;
+}
+
+.Footer {
+    @extend %Footer;
+}
+
+@media (max-width: 550px){
+    %Footer{
+        width: 80px;
+    }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Clocks.module.scss';
+import classes from '../Footer/Footer.module.scss';
 
 class Clocks extends React.Component{
     state = {
@@ -24,7 +24,7 @@ class Clocks extends React.Component{
 
         this.setState({time: time});
       }
-      
+
       componentDidMount(){
         setInterval(this.setTime,1000);
       }
