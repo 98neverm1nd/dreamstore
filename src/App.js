@@ -6,7 +6,6 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Clocks from './components/Clocks/Clocks';
 
-
 class App extends Component {
   render() {
     return (
